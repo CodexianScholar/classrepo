@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Health Bar</title>
+  </head>
+  <body>
+    <div class="healthBar__container">
+      <label for="percent-people" class="healthBar__label">% people</label>
+      <div class="healthBar__shell">
+        <label for="HealthBar__gauge-number">
+          <span id="healthNumber">100</span>
+          <div class="healthBar__gauge" id="healthGauge"></div>
+        </label>
+        <button class="healthBar__btn" id="resetBtn">reset</button>
+        <button class="healthBar__btn restore" id="restoreHealth">
+          restore
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

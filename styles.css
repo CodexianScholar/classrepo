@@ -1,0 +1,44 @@
+.healthBar__container {
+  display: flex;
+  align-items: center;
+}
+
+.healthBar__shell {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+.healthBar__shell label {
+  position: absolute;
+  bottom: 1px;
+  top: 25px;
+  left: 50px;
+}
+
+.healthBar__gauge {
+  background-color: pink;
+  position: absolute;
+  bottom: 1px;
+  height: 100px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.healthBar__btn {
+  background-color: aqua;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border-radius: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.restore {
+  top: 40px;
+}
