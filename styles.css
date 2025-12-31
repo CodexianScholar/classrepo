@@ -5,7 +5,7 @@
 
 .healthBar__shell {
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 150px;
   border: 2px solid black;
   border-radius: 5px;
@@ -41,5 +41,4 @@
 
 .restore {
   top: 40px;
-  left: 20px;
 }
